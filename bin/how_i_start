@@ -2,3 +2,7 @@
 require 'how_i_start'
 
 puts HowIStart::Url
+
+# hola = HowIStart::Hola.new
+# hola.hi
+puts HowIStart::Hola.hi(ARGV[0])
